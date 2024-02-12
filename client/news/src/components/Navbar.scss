@@ -4,19 +4,15 @@
 
 .navbar {
     margin-top: 75px;
+    background-color: hsl(0, 0%, 0%) !important;
   }
+
+  .nav-link {
+    margin-right: 15px;
+  }
+
 
   .nav-link:hover {
     background-color: #0e4a86; // Change this to the color you want for the hover box
     padding: 10px;
   }
-
-  
-  $navbar-dark-hover-color: #0800ff; // Change the color to whatever you want
-
-@import '~bootstrap/scss/bootstrap';
-
-
-$navbar-light-brand-hover-color: #ff0000; // Change the color to whatever you want
-
-@import '~bootstrap/scss/bootstrap';
