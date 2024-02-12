@@ -1,0 +1,18 @@
+/* Mobile styles */
+body {
+  /* Styles for mobile */
+}
+
+/* Tablet styles */
+@media (min-width: 768px) {
+  body {
+    /* Styles for tablets */
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1440px) {
+  body {
+    /* Styles for desktop */
+  }
+}
