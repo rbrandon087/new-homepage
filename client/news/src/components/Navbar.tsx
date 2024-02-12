@@ -1,5 +1,5 @@
 import React from 'react';
-import '../components/Navbar.css';
+import '../components/Navbar.scss';
 
 export interface INavbarProps {
     name: string;
@@ -11,7 +11,7 @@ const Navbar : React.FunctionComponent<INavbarProps> = ({ name }) => {
             <h1>{name}</h1>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">W</a>
+    <a className="navbar-brand" href="/">W</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
