@@ -7,5 +7,14 @@
     width: 30%; /* Adjust this value to make the alert smaller in width*/
     padding: 100px 50px; /* Adjust this value to make the alert taller */
     margin-top: -320px; /* Adjust this value to push the alert up */
-    margin-left: 1100px; /* Adjust this value to push the alert down */;
+    margin-left: 1100px; /* Adjust this value to push the alert down */
+    background-color: hsl(240, 100%, 5%) !important;
+}
+ 
+p {
+    color: white;
+}
+
+.alert-heading {
+    color: hsl(35, 77%, 62%) !important;
 }
