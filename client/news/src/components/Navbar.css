@@ -24,7 +24,10 @@
   
   .navbar {
     margin-top: 75px;
-    background-color: hsl(36, 100%, 99%) !important;
     
   }
+  .navbar-custom {
+    background-color: hsl(36, 100%, 99%) !important;
+}
+
 
