@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+.navbar-brand {
+  font-size: 50%;
+  margin-left: 250px;
+  font-family: 'DM Serif Display', serif;
+}
+
+.navbar-nav {
+    margin-right: 250px;
+}
+
+
+
+  .nav-link {
+    margin-right: 15px;
+  }
+ 
+  
+  .nav-link:hover {
+    background-color: #0e4a86;
+    padding: 10px;
+  }
+  
+  .navbar {
+    margin-top: 75px;
+    background-color: hsl(36, 100%, 99%) !important;
+    
+  }
+

@@ -10,8 +10,8 @@ export interface IHomeProps {
 const Home : React.FunctionComponent<IHomeProps> = ({ name, paragraph }) => {
     return (
         <div>
-            <h1>W. {name}</h1>
-            <p> yoo!{paragraph}</p>
+            <h1> {name}</h1>
+            <p>{paragraph}</p>
         </div>
     );
 }
