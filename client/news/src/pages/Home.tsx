@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Shapes from '../images/shapes.jpg'
+import '../styles/Home.css';
 
 
 export interface IHomeProps {
@@ -13,7 +14,7 @@ const Home : React.FunctionComponent<IHomeProps> = ({ name, paragraph }) => {
         <div>
             <h1> {name}</h1>
             <p>{paragraph}</p>
-            <img src={Shapes}
+            <img className='shapes-image' src={Shapes}
             alt="Shape image"
             />
         </div>
