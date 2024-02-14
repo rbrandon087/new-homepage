@@ -6,14 +6,22 @@ import "../styles/Home.css";
 export interface IHomeProps {
   name: string;
   paragraph: string;
+  imgSrc: string;
+  imgAlt: string;
 }
 
 const Home: React.FunctionComponent<IHomeProps> = ({ name, paragraph }) => {
   return (
     <div>
       <h1> {name}</h1>
-      <p>{paragraph}</p>
+      {/* Shapes image above*/}
       <img className="shapes-image" src={Shapes} alt="Shape image" />
+      {/* Text  info here */}
+      <section>
+        <p className="big-text">The Bright Future of Web 3.0? {paragraph}</p>
+        <p className="big-info"></p>
+      </section>
+      {/* Info section here*/}
       <div className="alert alert-success" role="alert">
         <h4 className="alert-heading">New</h4>
         <p>

@@ -1,14 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
 .shapes-image {
+    display: grid;
+    place-items: center; /* align horizontal and vertical */
     width: 40%;
     margin-left: 250px;
+    margin-top: 75px;
+    clear: both;
 }
 
 .alert {
     width: 30%; /* Adjust this value to make the alert smaller in width*/
     padding: 100px 50px; /* Adjust this value to make the alert taller */
-    margin-top: -320px; /* Adjust this value to push the alert up */
+    margin-top: -333px; /* Adjust this value to push the alert up */
     margin-left: 1100px; /* Adjust this value to push the alert down */
     background-color: hsl(240, 100%, 5%) !important;
+    position: absolute;
 }
  
 p {
@@ -17,4 +24,14 @@ p {
 
 .alert-heading {
     color: hsl(35, 77%, 62%) !important;
+}
+
+.big-text {
+    position: absolute;
+    color: black;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 250px;
+    width: 500px;
 }
