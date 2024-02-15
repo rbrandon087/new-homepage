@@ -14,12 +14,12 @@
 
   .nav-link {
     margin-right: 15px;
+    padding: 10px;
   }
  
   
   .nav-link:hover {
     background-color: #0e4a86;
-    padding: 10px;
   }
   
   .navbar {
