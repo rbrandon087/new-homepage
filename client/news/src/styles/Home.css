@@ -12,14 +12,19 @@
 .alert {
     width: 30%; /* Adjust this value to make the alert smaller in width*/
     padding: 100px 50px; /* Adjust this value to make the alert taller */
-    margin-top: -333px; /* Adjust this value to push the alert up */
+    margin-top: -717px; /* Adjust this value to push the alert up */
     margin-left: 1100px; /* Adjust this value to push the alert down */
+    width: 400px;
+    height: 550px;
     background-color: hsl(240, 100%, 5%) !important;
-    position: absolute;
 }
  
 p {
     color: white;
+}
+
+.p-3 {
+    margin-right: 5px;
 }
 
 .alert-heading {
@@ -27,11 +32,15 @@ p {
 }
 
 .big-text {
-    position: absolute;
     color: black;
     font-family: "Archivo Black", sans-serif;
     font-size: 50px;
     margin-top: 20px;
     margin-left: 250px;
-    width: 500px;
+    width: 350px;
+}
+
+.btn {
+    margin-left: 40%;
+    margin-top: 20px;
 }
