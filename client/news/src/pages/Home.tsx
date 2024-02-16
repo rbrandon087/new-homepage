@@ -51,7 +51,7 @@ const Home: React.FunctionComponent<IHomeProps> = ({ name, paragraph }) => {
           really fulfilling its promise?
         </p>
         <button type="button" className="btn btn-primary btn-lg">
-          Large button
+          Read More
         </button>
       </div>
       {/* bottom images here*/}
