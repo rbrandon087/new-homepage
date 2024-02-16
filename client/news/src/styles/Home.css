@@ -72,11 +72,13 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 .card-text {
     color: black;
     font-size: small;
+    width: 50%;
 }
 
 .col-md-8 {
