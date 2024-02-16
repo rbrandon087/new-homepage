@@ -13,24 +13,8 @@ export interface IHomeProps {
 const Home: React.FunctionComponent<IHomeProps> = ({ name, paragraph }) => {
   return (
     <div>
-      <h1> {name}</h1>
-      {/* Shapes image*/}
-      <img className="shapes-image" src={Shapes} alt="Shape image" />
-      {/* Text  info here */}
-      <div className="content">
-        <section>
-          <p className="big-text">The Bright Future of Web 3.0? {paragraph}</p>
-          <p className="big-info"></p>
-        </section>
-      </div>
-      <div className="button-container">
-        {/* Button  */}
-        <button type="button" className="btn btn-primary">
-          Read More
-        </button>
-      </div>
-      {/* Info section here*/}
-      <div>
+      <div className="main-content">
+        <img className="shapes-image" src={Shapes} alt="Shape image" />
         <div className="alert alert-success" role="alert">
           <h4 className="alert-heading">New</h4>
           <p>
@@ -53,6 +37,17 @@ const Home: React.FunctionComponent<IHomeProps> = ({ name, paragraph }) => {
             spacing within an alert works with this kind of content.
           </p>
         </div>
+      </div>
+      <div className="text-container">
+        <h1 className="main-title"> The Bright Future of Web 3.0? {name}</h1>
+        <p className="text">
+          We dive into the next evolution of the web that claims to put the
+          power of the platforms back into the hands of the people. But its
+          really fulfilling its promise?
+        </p>
+        <button type="button" className="btn btn-primary btn-lg">
+          Large button
+        </button>
       </div>
     </div>
   );
