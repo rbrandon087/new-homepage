@@ -55,25 +55,38 @@ const Home: React.FunctionComponent<IHomeProps> = ({ name, paragraph }) => {
         </button>
       </div>
       {/* bottom images here*/}
-      <div className="bottom-content">
-        <div className="card mb-3 no-border">
-          <div className="row g-0">
-            <div className="col-md-4">
-              <img
-                src={Retro}
-                className="img-fluid rounded-start retro"
-                alt="Retro PC"
-              />
-            </div>
-            <div className="col-md-8">
-              <div className="card-body">
-                <h5 className="card-title">Reviving Retro PCs</h5>
-                <p className="card-text">
-                  What happens when old PCs are given modern upgrades?
-                </p>
-              </div>
-            </div>
-          </div>
+      <div className="container-row">
+        <div className="container">
+          <img className="retro-pic" src={Retro} alt="description of image" />
+          <h2 className="number">01</h2>
+          <h5 className="retro-title">Reviving Retro PCs</h5>
+          <p className="retro-info">
+            What happens when old PCs are given modern upgrades.
+          </p>
+        </div>
+        <div className="container">
+          <img
+            className="retro-pic"
+            src={Keyboard}
+            alt="description of image"
+          />
+          <h2 className="number">02</h2>
+          <h5 className="retro-title">Top 10 Laptops of 2024</h5>
+          <p className="retro-info">
+            Our best picks of various needs and budgets
+          </p>
+        </div>
+        <div className="container">
+          <img
+            className="retro-pic"
+            src={Controller}
+            alt="description of image"
+          />
+          <h2 className="number">03</h2>
+          <h5 className="retro-title">The Growth of Gaming</h5>
+          <p className="retro-info">
+            How the pandemic has sparked fresh opportunities.
+          </p>
         </div>
       </div>
     </div>

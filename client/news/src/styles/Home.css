@@ -57,31 +57,46 @@ h1 {
     left: 41%;
 }
 /*bottom images here style*/
+.container-row {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    margin-left: 20%;
+    margin-top: 5%;
+    width: 70%;
+  }
 
-.no-border {
-    border: none;
-}
-
-.retro {
-    width: 45%;
-    margin-left: -115%;
-}
-
-.bottom-content {
+.container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+    justify-content: flex-start; 
+    align-items: center; 
 }
 
-.card-text {
+.retro-pic {
+    position: absolute;
+    width: 5%;
+    
+}
+
+.number {
+    position: absolute;
+    color: black;
+    margin-left: 6%;
+    margin-bottom: 5%;
+}
+
+.retro-title {
+    position: absolute;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 2vh;
+    margin-left: 6%;
+}
+
+.retro-info {
+    position: absolute;
     color: black;
     font-size: small;
-    width: 50%;
-}
-
-.col-md-8 {
-    padding-left: 0;
-    margin-left: -57%;
+    margin-top:4%;
+    margin-left: 6%;
+    width: 9%;
 }
