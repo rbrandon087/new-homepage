@@ -60,9 +60,9 @@ h1 {
 .container-row {
     display: flex;
     justify-content: space-between; /* Adjust as needed */
-    margin-left: 20%;
+    margin-left: 22%;
     margin-top: 5%;
-    width: 70%;
+    width: 60%;
   }
 
 .container {
