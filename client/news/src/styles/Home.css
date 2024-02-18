@@ -65,6 +65,8 @@ h1 {
 
 .btn {
     position: absolute;
+    background-color: hsl(5, 85%, 63%)!important;
+    outline: none;
     top: calc(68% + 1em);
     left: 41%;
 }
