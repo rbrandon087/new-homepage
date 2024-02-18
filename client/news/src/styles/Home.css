@@ -15,11 +15,19 @@
 .alert {
     width: 22%;
     margin-left: 35px;
+    height: 450px;
     background-color: hsl(240, 100%, 5%) !important;
 }
 
-p {
+.news-topic {
     color: white;
+    
+    margin-top: 25px;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.423);
+    width: 80%;
 }
 
 h4 {
