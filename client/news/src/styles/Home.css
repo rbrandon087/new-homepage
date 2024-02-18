@@ -63,12 +63,17 @@ h1 {
     color: black;
 }
 
+
 .btn {
     position: absolute;
     background-color: hsl(5, 85%, 63%)!important;
-    outline: none;
+    color: rgb(255, 255, 255)!important;
     top: calc(68% + 1em);
     left: 41%;
+}
+
+.btn:hover {
+    background-color: hsl(5, 85%, 70%) !important;
 }
 /*bottom images here style*/
 .container-row {

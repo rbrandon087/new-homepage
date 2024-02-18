@@ -45,7 +45,7 @@ const Home: React.FunctionComponent<IHomeProps> = ({ name, paragraph }) => {
           power of the platforms back into the hands of the people. But its
           really fulfilling its promise?
         </p>
-        <button type="button" className="btn btn-primary">
+        <button type="button" className="btn  btn-lg">
           Read More
         </button>
       </div>
