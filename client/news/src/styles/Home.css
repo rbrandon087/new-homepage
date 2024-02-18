@@ -25,6 +25,10 @@ p {
 h4 {
     color: hsl(35, 77%, 62%) !important;
 }
+
+.p-with-line {
+    border-bottom: 1px solid #ffffff8e;
+}
 /*h1 and p tag and also button css style here*/
 
 /*.text-container {
