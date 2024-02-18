@@ -8,6 +8,8 @@ import Categories from "./pages/Categories";
 import Navbar from "./components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import "./styles/Home.css";
+import "./styles/Navbar.css";
 import shapes from "./images/shapes.jpg";
 
 export interface IAppProps {}
