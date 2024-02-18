@@ -1,5 +1,5 @@
 import React from "react";
-import "../components/Navbar.css";
+import "../styles/Navbar.css";
 
 export interface INavbarProps {
   name: string;
@@ -9,7 +9,7 @@ const Navbar: React.FunctionComponent<INavbarProps> = ({ name }) => {
   return (
     <div>
       <h1>{name}</h1>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary navbar-custom">
+      <nav className="navbar navbar-expand-lg  navbar-color">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
             W.

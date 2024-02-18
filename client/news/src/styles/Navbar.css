@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
 
+.navbar-color {
+  background-color: hsl(36, 100%, 99%)!important;
+}
+
 .navbar-brand {
   font-size: 5vh !important;
   margin-left: 23%;
@@ -24,10 +28,11 @@
   
   .navbar {
     margin-top: 75px;
-    position: fixed;
     
   }
-  .navbar-custom {
-    background-color: hsl(0, 14%, 1%) !important;
-}
+
+
+ 
+  
+ 
 

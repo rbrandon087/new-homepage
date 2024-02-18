@@ -1,19 +1,8 @@
-/* Mobile styles */
-body {
-  min-width: 375px;
-  background-color: hsl(36, 100%, 99%)
-}
 
-/* Tablet styles */
-@media (min-width: 768px) {
-  body {
-    background-color: hsl(36, 100%, 99%)
-  }
-}
 
 /* Desktop styles */
 @media (min-width: 1440px) {
   body {
-    background-color: hsl(36, 100%, 99%)
+    background-color: hsl(36, 100%, 99%);
   }
 }
