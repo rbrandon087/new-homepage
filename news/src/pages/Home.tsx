@@ -18,7 +18,7 @@ const Home: React.FunctionComponent<IHomeProps> = ({ name, paragraph }) => {
     <div>
       {/* image and new alert here*/}
       <div className="main-content">
-        <img className="shapes-image" src={Shapes} alt="Shape image" />
+        <img className="shapes-image" src={Shapes} alt="Shape" />
         <div className="alert alert-success" role="alert">
           <h4 className="alert-heading">New</h4>
           <h5 className="news-topic">Hydrogen VS Electric Cars</h5>
@@ -52,7 +52,7 @@ const Home: React.FunctionComponent<IHomeProps> = ({ name, paragraph }) => {
       {/* bottom images here*/}
       <div className="container-row">
         <div className="container">
-          <img className="retro-pic" src={Retro} alt="description of image" />
+          <img className="retro-pic" src={Retro} alt="retro pc" />
           <h2 className="number">01</h2>
           <h5 className="retro-title">Reviving Retro PCs</h5>
           <p className="retro-info">
@@ -60,11 +60,7 @@ const Home: React.FunctionComponent<IHomeProps> = ({ name, paragraph }) => {
           </p>
         </div>
         <div className="container">
-          <img
-            className="retro-pic"
-            src={Keyboard}
-            alt="description of image"
-          />
+          <img className="retro-pic" src={Keyboard} alt="keyboard" />
           <h2 className="number">02</h2>
           <h5 className="retro-title">Top 10 Laptops of 2024</h5>
           <p className="retro-info">
@@ -72,11 +68,7 @@ const Home: React.FunctionComponent<IHomeProps> = ({ name, paragraph }) => {
           </p>
         </div>
         <div className="container">
-          <img
-            className="retro-pic"
-            src={Controller}
-            alt="description of image"
-          />
+          <img className="retro-pic" src={Controller} alt="p35 controller" />
           <h2 className="number">03</h2>
           <h5 className="retro-title">The Growth of Gaming</h5>
           <p className="retro-info">
